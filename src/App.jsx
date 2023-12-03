@@ -7,12 +7,11 @@ import Gallery from './components/studentWork/gallery.jsx';
 import Footer from './components/layout/footer/Footer';
 import OnlineClass from './components/onlineClasses/OnlineClass';
 import Testimonial from './components/testimonial/Testimonial';
-import Menubar from './components/layout/menu/MenuBar';
+import Menubar from './components/layout/menu/Menubar';
 import Update from './components/updates/Update';
 
 function App() {
  
-
   return (
     <>  
     <Header />
