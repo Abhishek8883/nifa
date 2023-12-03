@@ -1,0 +1,138 @@
+.menu-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10vw;
+    height: 10vh;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:80px;
+    width: 150px;
+    object-fit: cover;
+}
+
+#logo > img{
+    height: 100%;
+    width: 100%;
+}
+
+.menu-desktop{
+    width: 80%;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav > li{    
+    list-style-type: none;
+}
+
+.menu-heading{
+    position: relative;
+    padding: 3px 0px;
+    border: 1px solid #fff;
+    margin-right: 7px;
+}
+
+.menu-heading:hover{
+    border-top: 1px solid rgb(219, 52, 79);
+    border-bottom: 1px solid rgb(219, 52, 79);
+    cursor: pointer;
+}
+
+
+.menu-heading > ul{
+    left: -60%;
+    top: 100%;
+    position: absolute;
+    display: none;
+}
+
+.menu-heading > ul > li {
+    list-style-type: none;
+    width: 200px;
+    border-bottom: 0.5px solid rgb(198, 194, 194);
+    padding: 2px;
+    padding-left: 15px;
+    background-color: rgb(221, 217, 217);
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.83);
+}
+
+.menu-heading > ul > li:hover {
+    background-color: rgb(166, 164, 164);  
+}
+
+
+
+.menu-heading:hover > ul{
+    display: initial;
+    z-index: 1;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+.menu-mobile-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-mobile-top > ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+
+.menu-mobile-top >ul > li >img{
+    margin-right: 10px;
+}
+
+.menubar > select{
+    background-color: rgb(5, 18, 117);
+    color: #fff;
+    width: 100%;
+    padding: 3px 10px;
+    border: 2px solid rgb(234, 186, 40);
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 800px){
+
+    .menu-desktop{
+        display: none;
+    }
+
+    .menu-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1vw 2vw;
+        height: max-content;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #logo{
+       
+        height:50px;
+        width: 100px;
+    }
+
+    .menu-mobile{
+        display: initial;
+    }
+
+    
+}

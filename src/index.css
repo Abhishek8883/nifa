@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ height: 100%;
+ width: 100%;
+ font-family: 'Roboto Flex', sans-serif;
+}
+
+.btn{
+  background: linear-gradient( 90deg, rgba(177, 30, 111, 1) 0%, rgba(74, 14, 192, 1) 100%) !important;
+  border: 2px solid #fff !important;
+  margin-top: 1rem;
+  font-size: 15px !important;
+  padding: 10px 20px !important;
+  border-radius: 30px !important;
+  color:#fff !important;
+}

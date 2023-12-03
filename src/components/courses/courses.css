@@ -1,0 +1,57 @@
+.course-container{
+    width:100%;
+    text-align: center;
+    background: url(https://www.nifafinearts.com/images/artboard2.png) no-repeat center;
+    background-size: cover;
+    padding: 2em 2em;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2em 0em;
+}
+
+
+
+.course-card{
+    width: 20%;
+    font-size: 15px;
+    font-weight: 100;
+    border-radius: 4px;
+    margin: 0 2em;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+    margin-bottom: 4rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.image{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.course-card > h6{
+    padding: 0 1em;
+}
+
+.image > img {
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .course-card{
+        width: 100%;
+
+    }
+
+    .cards{
+        margin: 0;
+    }
+}

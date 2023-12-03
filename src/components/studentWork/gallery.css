@@ -1,0 +1,15 @@
+.gallery_container{
+    text-align: center;
+    padding: 1em 10em;
+}
+
+.gallery_container > h1{
+    margin-bottom: 2em;
+}
+
+@media screen and (max-width: 600px){
+    .gallery_container{
+        text-align: center;
+        padding: 2em 2em;
+    }
+}

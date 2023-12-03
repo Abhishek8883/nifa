@@ -1,0 +1,130 @@
+.footer-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3em 10em;
+    background: url(https://www.nifafinearts.com/images/fotbg2.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.detail-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 2em;
+    width: 20%;
+}
+
+.detail-box > p {
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.detail-box >ul > li{
+    padding: 0;
+}
+
+
+.list-item{
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    list-style-type: none;
+    padding: 1px 0px;
+    font-weight: 400;   
+}
+
+.list-item:hover{
+    color: rgb(221, 114, 132);
+    cursor: pointer;
+}
+
+.footer-bottom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0em 1em 0em 2em;
+}
+
+.fb-left-img{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.fb-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.icons-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin: 1em 0;
+}
+.icon-img{
+    width: 120px;
+    height: 40px;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.icon-img > img{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 600px){
+    .footer-container{
+        padding: 1em 1em;
+    }
+
+    .detail-box{   
+        justify-content: flex-start;
+        width: 50%;
+    }
+
+    .fb-right{
+        align-items: flex-start;
+        margin-top: 2em;
+    }
+
+    .fb-right > p{
+        font-weight: 300;
+        font-size: 11px;
+    }
+
+    .icon-img{
+        margin-left: 0px;
+    }
+
+    .footer-bottom{    
+        flex-wrap: wrap;
+    }
+    
+}   
